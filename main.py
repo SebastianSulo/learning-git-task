@@ -18,6 +18,7 @@ for numb in range(1,101):
 numbers_5 = [numb for numb in numbers if numb % 5  == 0]
 numbers_3 = [numb*numb*numb for numb in numbers if numb % 5  == 0]
 print(f"liczb od 1 do 100, które są podzielne przez 5: {numbers_5}")
+print()
 print(f"Licby od 1 do 100, które są podzielne przez 5 po podniesienieu do sześcianu: {numbers_3}")
 print()
 
