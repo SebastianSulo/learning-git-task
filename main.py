@@ -8,7 +8,7 @@ for shop,products in lista_zakupow.items():
 
     counter += len(lista_zakupow.get(shop))
     print(f"Idę do: {shop.capitalize()} i kupuję tam: {products}")
-print(f"kupię {counter} produkty".capitalize())
+print(f"kupię {counter} produktów".capitalize())
 print()
 
 
